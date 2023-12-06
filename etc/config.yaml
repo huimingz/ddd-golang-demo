@@ -1,0 +1,10 @@
+name: demo_srv
+
+http:
+  host: 127.0.0.1
+  port: 8088
+  reverse_proxy: true
+  api_prefix: /api/v1
+  domain:
+    - localhost:8080
+    - 127.0.0.1:8080
